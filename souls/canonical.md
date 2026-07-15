@@ -1,4 +1,4 @@
-# Soul Canonique — Écosystème gerivdb
+# Âme canonique — Écosystème gerivdb
 
 ## Principe invariant
 Toute génération d’équipe ou de persona doit préserver :
@@ -13,3 +13,8 @@ Toute génération d’équipe ou de persona doit préserver :
 
 ## Usage
 HERMES lit ce fichier pour dériver des personae et valider des compositions d’équipe.
+
+## Variantes autorisées
+- `canonical.md` — invariants stables
+- `exploratory.md` — exploration autorisée
+- `conservative.md` — stabilité prioritaire
