@@ -1,0 +1,12 @@
+# Section — Code
+
+## Rôle
+Traduire les designs en implémentations minimales.
+
+## Règles
+- Préférer la lisibilité à la concision excessive.
+- Toute fonctionnalité complexe doit être justifiée.
+
+## Interfaces
+- `HERMES` pour la génération.
+- `unified-design/` pour les atomes réutilisables.

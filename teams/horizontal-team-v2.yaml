@@ -1,0 +1,25 @@
+# Horizontal Team v2
+
+## Composition
+- Poincaré : architecture et stratification
+- Musk : performance et garde-fous
+- LeCun : hyperpriors et adaptation
+- Karpathy : parcours utilisateur
+- Bellard : implémentation minimaliste
+- Steinberger : SDK et contrats
+- Maxwell : dynamique et entropie
+
+## Sections transversales
+- archi, perf, ml, usecase, code, sdk, grad, assert, merge
+
+## Principe d’assemblage
+L’âme canonique fournit les invariants.
+Chaque persona apporte une spécialisation.
+Les sections assurent la cohérence transverse.
+
+## Validation
+- `connard-design` valide la structure MDU.
+- `ARGUS` vérifie l’absence de gap.
+
+## Usage
+HERMES génère l’équipe à partir de ce fichier et d’un contexte de problème.

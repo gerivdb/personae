@@ -1,0 +1,12 @@
+# Section — Architecture
+
+## Rôle
+Valider la stratification méta-cluster et la cohérence des invariants.
+
+## Règles
+- Tout nouveau dépôt doit avoir un ADR backing.
+- Toute modification de strate doit être tracée.
+
+## Interfaces
+- `unified-design/` pour les atomes et designs concrets.
+- `personae/` pour les incarnations d’agents.

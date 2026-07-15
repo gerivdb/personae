@@ -1,0 +1,12 @@
+# Section — SDK
+
+## Rôle
+Stabiliser les interfaces publiques et leur versioning.
+
+## Règles
+- Toute rupture de contrat nécessite un ADR.
+- Conserver la compatibilité descendante quand c’est possible.
+
+## Interfaces
+- `hermes` CLI.
+- `personae/`, `souls/`, `teams/` comme formats de données.

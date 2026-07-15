@@ -1,0 +1,12 @@
+# Section — Assertions
+
+## Rôle
+Centraliser les vérifications de cohérence transversales.
+
+## Règles
+- Toute contradiction entre sections doit être remontée.
+- Préparer les prémisses de fusion.
+
+## Interfaces
+- `connard-design` pour la validation MDU.
+- `ARGUS` pour la détection de gaps.

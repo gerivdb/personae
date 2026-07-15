@@ -1,0 +1,12 @@
+# Section — Performance
+
+## Rôle
+Établir les garde-fous de latence et de coût d’instanciation.
+
+## Règles
+- Cibles par défaut : < 200 ms pour une génération d’équipe.
+- Mesurer avant d’ajouter une abstraction.
+
+## Interfaces
+- `HERMES` pour les temps de génération.
+- `VERSES` pour l’instanciation textuelle.

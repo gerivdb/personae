@@ -1,0 +1,12 @@
+# Section — Use Case
+
+## Rôle
+Garantir que chaque abstraction reste actionnable.
+
+## Règles
+- Toute feature doit avoir un parcours utilisateur explicite.
+- Documenter les entrées et les sorties attendues.
+
+## Interfaces
+- `README.md` du dépôt.
+- CLI `hermes generate`.

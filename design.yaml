@@ -1,0 +1,29 @@
+---
+type: DESIGN
+version: "1.0"
+date: "2026-07-15"
+status: active
+intent_hash: 0xDESIGN_PERSONAE_20260715
+layer: L0-CANON
+role: Meta-design des personae et âmes de l’écosystème
+inherits:
+  - unified-design/atoms/soul-engine
+---
+
+# Design — personae
+
+## Contexte
+Ce dépôt formalise les invariants d’ordre supérieur de l’écosystème :
+- N+2 : âmes
+- N+1 : personae
+- N+0 : designs
+
+## Structure
+- `souls/` : âmes canoniques
+- `personae/` : designs de persona
+- `sections/` : axes transversaux
+- `teams/` : méta-designs d’équipe
+
+## Validation
+- `connard-design` valide ce fichier.
+- `unified-design` fournit les atomes partagés.

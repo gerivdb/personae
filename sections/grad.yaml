@@ -1,0 +1,12 @@
+# Section — Gradient / Dynamique
+
+## Rôle
+Maintenir une architecture dissipative et auto-stabilisante.
+
+## Règles
+- Mesurer l’entropie ajoutée par chaque changement.
+- Favoriser les attracteurs stables.
+
+## Interfaces
+- `GOVERNANCE-HUB` pour la traçabilité.
+- `TOPOS` pour la cartographie des strates.

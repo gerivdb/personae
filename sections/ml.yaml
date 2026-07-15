@@ -1,0 +1,12 @@
+# Section — Machine Learning
+
+## Rôle
+Définir les hyperpriors et la méta-apprentissage.
+
+## Règles
+- Les âmes sont des priors de second ordre.
+- Toute adaptation doit rester réversible.
+
+## Interfaces
+- `souls/` comme source d’invariants.
+- `teams/` comme corpus d’exemples.

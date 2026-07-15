@@ -1,0 +1,13 @@
+# Section — Merge / DAG
+
+## Rôle
+Documenter la composition et la fusion des couches.
+
+## Règles
+- Toute intégration multi-couches doit être tracée en DAG.
+- Préciser les dépendances entre niveaux.
+
+## Interfaces
+- `unified-design/` pour les atomes.
+- `personae/` pour les incarnations.
+- `souls/` pour les invariants supérieurs.
