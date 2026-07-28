@@ -246,3 +246,6 @@ Chaque niveau est un **filtre** qui :
 - INTENT-095 : Buzz — Communication Souveraine
 - INTENT-096 : Meta-Gouvernance & Migration vers Forgejo/Gitea
 - ADR-082 : Git Meta-Orchestrator
+- DAG-3/docs/ADMG.md : Acyclic Directed Mixed Graph — implémentation repo-local
+- INTENT-MDU-DAG.md : ADMG comme type cible du moteur DAG-3
+- STRATA.md : DAG-3 canonical en L3-CITIZENS
