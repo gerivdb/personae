@@ -290,3 +290,12 @@ entropy_impact: <decreasing|neutral|increasing>
 - DESIGN-PERSONAE-20260715 : Meta-design des personae
 - VERSES/verses/actifs/TINA-VERSE.md
 - SPIDX : Spider Graph Rewriting Kernel
+
+## 13. Lien avec DAG-3 / ADMG
+
+- `gerivdb/DAG-3` : repo dédié aux graphes triadiques
+- `DAG-3/docs/ADMG.md` : documentation ADMG repo-local
+- `INTENT-MDU-DAG.md` : ADMG comme type cible du moteur DAG-3
+- `STRATA.md` : DAG-3 est canonical en `L3-CITIZENS`
+- `DESIGN-LEVELS.md` : ADMG situé aux niveaux 10-19 (Méta-modèle)
+- `INTENT-094`, `INTENT-096` : cas d'usage Fin-Ops liés à ADMG
