@@ -1,0 +1,26 @@
+# Cross-ref personae -> VERSES
+
+## Métier LP
+- commercial : non lié à VERSES (métier, pas recherche)
+- administratif : non lié à VERSES (métier, pas recherche)
+- client-collectivite : non lié à VERSES (métier, pas recherche)
+- client-particulier : non lié à VERSES (métier, pas recherche)
+- prestataire-artiste : non lié à VERSES (métier, pas recherche)
+
+## E5620 × Mouche à fruits
+- marder : gerivdb/VERSES::verses/actifs/marder-verse.md
+- lecun : gerivdb/VERSES::verses/actifs/lecun-verse.md
+- mead : gerivdb/VERSES::verses/actifs/mead-verse.md
+- indiveri : gerivdb/VERSES::verses/actifs/indiveri-verse.md
+- strukov : gerivdb/VERSES::verses/actifs/strukov-verse.md
+- strogatz : gerivdb/VERSES::verses/actifs/strogatz-verse.md
+- doya : gerivdb/VERSES::verses/actifs/doya-verse.md
+- pfeifer : gerivdb/VERSES::verses/actifs/pfeifer-verse.md
+- dennett : gerivdb/VERSES::verses/actifs/dennett-verse.md
+- tegmark : gerivdb/VERSES::verses/actifs/tegmark-verse.md
+- chomsky : gerivdb/VERSES::verses/actifs/chomsky-verse.md
+
+## Connexions
+- Verse projet : gerivdb/VERSES::verses/actifs/e5620-fly-connectome-verse.md
+- Concept persona : gerivdb/VERSES::concepts/persona.md
+- Concept filtre holographique : gerivdb/VERSES::concepts/holographic_filter.md
