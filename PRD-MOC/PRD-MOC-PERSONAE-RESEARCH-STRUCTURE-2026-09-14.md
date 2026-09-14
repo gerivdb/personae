@@ -31,7 +31,7 @@ complété par un `crossref.yaml` liant chaque persona à son verse VERSES.
 ## 2. Contexte
 
 - `personae` repo contient déjà `personae/business/` avec 5 personae métier LP
-- 11 personae research E5620 ont été créées dans `personae/research/`
+- 21 personae research E5620 ont été créées dans `personae/research/`
 - Chaque persona a un verse correspondant dans `gerivdb/VERSES`
 
 ## 3. Structure
@@ -45,7 +45,7 @@ personae/
 │   │   ├── client-collectivite.yaml
 │   │   ├── client-particulier.yaml
 │   │   └── prestataire-artiste.yaml
-│   └── research/          # 11 personae research E5620
+│   └── research/          # 21 personae research E5620
 │       ├── marder.yaml
 │       ├── lecun.yaml
 │       ├── mead.yaml
@@ -56,7 +56,17 @@ personae/
 │       ├── pfeifer.yaml
 │       ├── dennett.yaml
 │       ├── tegmark.yaml
-│       └── chomsky.yaml
+│       ├── chomsky.yaml
+│       ├── huang.yaml
+│       ├── musk.yaml
+│       ├── altman.yaml
+│       ├── amodei.yaml
+│       ├── zhang.yaml
+│       ├── liang.yaml
+│       ├── chen.yaml
+│       ├── archiviste.yaml
+│       ├── data-engineer.yaml
+│       └── ml-expert.yaml
 └── crossref.yaml           # Liaisons personae -> VERSES
 ```
 
@@ -107,7 +117,7 @@ verse: gerivdb/VERSES::verses/actifs/<persona>-verse.md
 
 ## 7. Livrables opérationnels
 
-- 11 fichiers YAML dans `personae/research/`
+- 21 fichiers YAML dans `personae/research/`
 - 1 fichier `crossref.yaml` à la racine de `personae/`
 
 ## 8. Références
