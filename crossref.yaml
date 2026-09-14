@@ -8,17 +8,33 @@ business:
   prestataire-artiste: null
 
 research_e5620:
+  # TEAM D - Biologie
   marder: gerivdb/VERSES::verses/actifs/marder-verse.md
   lecun: gerivdb/VERSES::verses/actifs/lecun-verse.md
+  # TEAM E - Analogique/Neuromorphique
   mead: gerivdb/VERSES::verses/actifs/mead-verse.md
   indiveri: gerivdb/VERSES::verses/actifs/indiveri-verse.md
   strukov: gerivdb/VERSES::verses/actifs/strukov-verse.md
+  # TEAM F - Dynamique/Contrôle/Embodiment
   strogatz: gerivdb/VERSES::verses/actifs/strogatz-verse.md
   doya: gerivdb/VERSES::verses/actifs/doya-verse.md
   pfeifer: gerivdb/VERSES::verses/actifs/pfeifer-verse.md
+  # TEAM G - Épistémologie
   dennett: gerivdb/VERSES::verses/actifs/dennett-verse.md
   tegmark: gerivdb/VERSES::verses/actifs/tegmark-verse.md
   chomsky: gerivdb/VERSES::verses/actifs/chomsky-verse.md
+  # TEAM H - Industrie
+  huang: gerivdb/VERSES::verses/actifs/huang-verse.md
+  musk: gerivdb/VERSES::verses/actifs/musk-verse.md
+  altman: gerivdb/VERSES::verses/actifs/altman-verse.md
+  amodei: gerivdb/VERSES::verses/actifs/amodei-verse.md
+  zhang: gerivdb/VERSES::verses/actifs/zhang-verse.md
+  liang: gerivdb/VERSES::verses/actifs/liang-verse.md
+  chen: gerivdb/VERSES::verses/actifs/chen-verse.md
+  # TEAM I - Archivistes/Data/ML
+  archiviste: gerivdb/VERSES::verses/actifs/archiviste-verse.md
+  data-engineer: gerivdb/VERSES::verses/actifs/data-engineer-verse.md
+  ml-expert: gerivdb/VERSES::verses/actifs/ml-expert-verse.md
 
 connections:
   verse_projet: gerivdb/VERSES::verses/actifs/e5620-fly-connectome-verse.md
