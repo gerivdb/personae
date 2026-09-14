@@ -40,3 +40,19 @@ connections:
   verse_projet: gerivdb/VERSES::verses/actifs/e5620-fly-connectome-verse.md
   concept_persona: gerivdb/VERSES::concepts/persona.md
   concept_holographic_filter: gerivdb/VERSES::concepts/holographic_filter.md
+
+kg_engine:
+  # CORE
+  linus: gerivdb/VERSES::verses/actifs/linus-verse.md
+  bellard: gerivdb/VERSES::verses/actifs/bellard-verse.md
+  musk-kg: gerivdb/VERSES::verses/actifs/musk-kg-verse.md
+  wolfram: gerivdb/VERSES::verses/actifs/wolfram-verse.md
+  dorsey: gerivdb/VERSES::verses/actifs/dorsey-verse.md
+  tesla: gerivdb/VERSES::verses/actifs/tesla-verse.md
+  # SUPPORT
+  hassabis-kg: gerivdb/VERSES::verses/actifs/hassabis-kg-verse.md
+  grothendieck-kg: gerivdb/VERSES::verses/actifs/grothendieck-kg-verse.md
+  mozart: gerivdb/VERSES::verses/actifs/mozart-verse.md
+  hendrix: gerivdb/VERSES::verses/actifs/hendrix-verse.md
+  hitchcock-kg: gerivdb/VERSES::verses/actifs/hitchcock-kg-verse.md
+  sheldrake: gerivdb/VERSES::verses/actifs/sheldrake-verse.md
