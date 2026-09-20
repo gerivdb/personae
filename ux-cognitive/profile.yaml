@@ -1,0 +1,49 @@
+---
+type: UX_COGNITIVE_PROFILE
+version: "1.0.0"
+date: "2026-09-20"
+intent_hash: 0xUX_COGNITIVE_PROFILE_TEMPLATE_20260920
+regime_scope:
+  - operative
+  - prescriptive
+---
+
+# UX Cognitive Profile Template
+
+## Metadata
+
+- **profile_id**: <unique-id>
+- **display_name**: <display-name>
+- **description**: <description>
+- **persona_ref**: <persona-id-if-linked>
+- **tags**: []
+
+## Cognitive Attributes
+
+- **cognitive_load**: <low|medium|high|extreme>
+  - _note_: Charge de travail mental nécessaire pour accomplir les tâches principales.
+
+- **shortcuts**: <none|minimal|moderate|extensive>
+  - _note_: Nombre et complexité des raccourcis clavier, gestes, ou raccourcis cognitifs disponibles.
+
+- **error_tolerance**: <low|medium|high>
+  - _note_: Tolérance aux erreurs de saisie, de navigation, ou de compréhension.
+
+- **info_density**: <minimal|moderate|high|extreme>
+  - _note_: Densité d'information affichée par écran ou par flux.
+
+- **iteration_cycle**: <fast|medium|slow>
+  - _note_: Vitesse à laquelle l'utilisateur itère, valide, ou corrige ses actions.
+
+## UX Implications
+
+- **preferred_ui_patterns**: []
+- **avoid_ui_patterns**: []
+- **onboarding_strategy**: <guided|self_service|mentored>
+- **training_time_estimate**: <duration>
+
+## Validation
+
+- **scenarios**: []
+- **metrics**: []
+- **linked_verses**: []

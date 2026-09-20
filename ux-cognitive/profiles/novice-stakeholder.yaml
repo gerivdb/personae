@@ -1,0 +1,60 @@
+---
+type: UX_COGNITIVE_PROFILE
+version: "1.0.0"
+date: "2026-09-20"
+intent_hash: 0xUX_COGNITIVE_NOVICE_STAKEHOLDER_20260920
+regime_scope:
+  - operative
+  - prescriptive
+---
+
+# Novice Stakeholder
+
+## Metadata
+
+- **profile_id**: novice-stakeholder
+- **display_name**: Novice Stakeholder
+- **description**: Utilisateur métier occasionnel, peu familier avec l'outil. Besoin de guidance, faible tolérance aux erreurs, préférence pour des interfaces épurées.
+- **persona_ref**: null
+- **tags**:
+  - novice
+  - stakeholder
+  - business-user
+
+## Cognitive Attributes
+
+- **cognitive_load**: low
+  - _note_: Ne peut traiter qu'un flux d'information à la fois. Besoin de contextes simplifiés et de transitions explicites.
+
+- **shortcuts**: minimal
+  - _note_: Utilise uniquement les raccourcis les plus courants. Préfère la souris et les boutons explicites.
+
+- **error_tolerance**: low
+  - _note_: Une erreur de saisie ou une navigation ambiguë peut bloquer la tâche. Besoin de confirmations et de messages d'erreur clairs.
+
+- **info_density**: minimal
+  - _note_: Préfère des écrans épurés avec peu d'informations simultanées. Les listes longues ou les tableaux denses sont décourageants.
+
+- **iteration_cycle**: slow
+  - _note_: Valide chaque étape avant de passer à la suivante. Itérations rares et prudentes.
+
+## UX Implications
+
+- **preferred_ui_patterns**:
+  - wizard-sequential
+  - card-based-layout
+  - inline-validation
+  - progressive-disclosure
+- **avoid_ui_patterns**:
+  - command-palette
+  - keyboard-first-navigation
+  - dense-data-tables
+  - split-view-editors
+- **onboarding_strategy**: guided
+- **training_time_estimate**: 2–4 weeks
+
+## Validation
+
+- **scenarios**: []
+- **metrics**: []
+- **linked_verses**: []

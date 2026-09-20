@@ -1,0 +1,59 @@
+---
+type: UX_COGNITIVE_PROFILE
+version: "1.0.0"
+date: "2026-09-20"
+intent_hash: 0xUX_COGNITIVE_EXPERT_OPERATOR_20260920
+regime_scope:
+  - operative
+  - prescriptive
+---
+
+# Expert Operator
+
+## Metadata
+
+- **profile_id**: expert-operator
+- **display_name**: Expert Operator
+- **description**: Utilisateur expert maîtrisant les raccourcis clavier et les workflows avancés. Haute capacité cognitive, faible besoin d'guidage.
+- **persona_ref**: null
+- **tags**:
+  - expert
+  - power-user
+  - operator
+
+## Cognitive Attributes
+
+- **cognitive_load**: high
+  - _note_: Peut traiter simultanément plusieurs flux d'information et basculer entre contextes sans perte.
+
+- **shortcuts**: extensive
+  - _note_: Utilise intensivement les raccourcis clavier, les macros, et les commandes en ligne.
+
+- **error_tolerance**: high
+  - _note_: Corrige ses erreurs rapidement et sait revenir en arrière sans perdre le fil.
+
+- **info_density**: high
+  - _note_: Préfère des interfaces denses avec peu de fioritures, toutes les informations pertinentes visibles.
+
+- **iteration_cycle**: fast
+  - _note_: Itère rapidement, teste plusieurs hypothèses en séquence, valide par lots.
+
+## UX Implications
+
+- **preferred_ui_patterns**:
+  - command-palette
+  - keyboard-first-navigation
+  - dense-data-tables
+  - split-view-editors
+- **avoid_ui_patterns**:
+  - wizard-sequential
+  - large-hero-banners
+  - hand-holding-tooltips
+- **onboarding_strategy**: self_service
+- **training_time_estimate**: < 1 day
+
+## Validation
+
+- **scenarios**: []
+- **metrics**: []
+- **linked_verses**: []
