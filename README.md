@@ -28,6 +28,18 @@ personae/
 │   └── merge.yaml
 ├── teams/
 │   └── horizontal-team-v2.yaml
+├── ux-cognitive/
+│   ├── profile.yaml
+│   ├── profiles/
+│   │   ├── novice.yaml
+│   │   ├── expert.yaml
+│   │   ├── operator.yaml
+│   │   ├── auditor.yaml
+│   │   └── designer.yaml
+│   └── scenarios/
+│       ├── onboarding-novice.yaml
+│       ├── pipeline-operator.yaml
+│       └── audit-report.yaml
 ├── design.yaml
 └── README.md
 ```

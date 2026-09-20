@@ -23,6 +23,7 @@ Ce dépôt formalise les invariants d’ordre supérieur de l’écosystème :
 - `personae/` : designs de persona
 - `sections/` : axes transversaux
 - `teams/` : méta-designs d’équipe
+- `ux-cognitive/` : profils cognitifs UX + scénarios (couche 4, régime opératoire)
 
 ## Validation
 - `connard-design` valide ce fichier.
