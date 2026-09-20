@@ -1,0 +1,59 @@
+---
+type: UX_COGNITIVE_PROFILE
+version: "1.0.0"
+date: "2026-09-20"
+intent_hash: 0xUX_COGNITIVE_ANALYST_INVESTIGATOR_20260920
+regime_scope:
+  - operative
+  - prescriptive
+---
+
+# Analyst Investigator
+
+## Metadata
+
+- **profile_id**: analyst-investigator
+- **display_name**: Analyst Investigator
+- **description**: Utilisateur analyste qui investigue, croise des sources, et valide des hypothèses. Charge cognitive moyenne, besoin de traçabilité et de filtres progressifs.
+- **persona_ref**: null
+- **tags**:
+  - analyst
+  - investigator
+  - researcher
+
+## Cognitive Attributes
+
+- **cognitive_load**: medium
+  - _note_: Peut traiter plusieurs sources d'information mais nécessite des pauses de synthèse et des rappels visuels.
+
+- **shortcuts**: moderate
+  - _note_: Utilise quelques raccourcis clavier pour accélérer la navigation, mais reste dépendant de menus contextuels pour les actions rares.
+
+- **error_tolerance**: medium
+  - _note_: Peut corriger ses erreurs sans aide, mais une navigation ambiguë ou un manque de feedback peut causer des doutes.
+
+- **info_density**: moderate
+  - _note_: Préfère des interfaces modérément denses, avec des résumés visibles et des détails accessibles au clic.
+
+- **iteration_cycle**: medium
+  - _note_: Itère par cycles de investigation : hypothèse → filtre → validation → ajustement.
+
+## UX Implications
+
+- **preferred_ui_patterns**:
+  - filterable-lists
+  - breadcrumb-navigation
+  - inline-details
+  - audit-trail-visibility
+- **avoid_ui_patterns**:
+  - wizard-sequential
+  - excessive-notifications
+  - dense-data-tables-without-filtering
+- **onboarding_strategy**: mentored
+- **training_time_estimate**: 1–2 weeks
+
+## Validation
+
+- **scenarios**: []
+- **metrics**: []
+- **linked_verses**: []
