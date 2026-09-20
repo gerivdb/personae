@@ -1,0 +1,31 @@
+---
+profile_id: expert
+name: Expert
+regime_impact:
+  - operative
+description: >
+  Utilisateur métier expérimenté. Charge cognitive faible, préfère les raccourcis
+  clavier, haute densité d'information, itération rapide. Peut tolérer des erreurs
+  de saisie mineures.
+
+cognitive_load: low
+shortcuts:
+  - Ctrl+K command palette
+  - Ctrl+. quick fix
+  - Ctrl+Shift+P actions rapides
+error_tolerance: medium
+info_density: high
+iteration_cycle: fast
+
+crossrefs:
+  verses: []
+  ontology:
+    - cognitive_load
+    - info_density
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

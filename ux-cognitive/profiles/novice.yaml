@@ -1,0 +1,30 @@
+---
+profile_id: novice
+name: Novice
+regime_impact:
+  - operative
+description: >
+  Utilisateur métier débutant. Charge cognitive forte, besoin de guidance,
+  faible tolérance à la densité d'information. Préfère les workflows linéaires
+  avec aide contextuelle.
+
+cognitive_load: high
+shortcuts:
+  - F1 aide contextuelle
+  - Ctrl+Z annulation
+error_tolerance: low
+info_density: low
+iteration_cycle: slow
+
+crossrefs:
+  verses: []
+  ontology:
+    - cognitive_load
+    - error_tolerance
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

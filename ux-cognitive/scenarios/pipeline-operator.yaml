@@ -1,0 +1,37 @@
+---
+scenario_id: pipeline-operator
+profile: operator
+regime_impact:
+  - operative
+description: >
+  Exécution et monitoring d'un pipeline par un opérateur. Objectif : feedback
+  visuel immédiat, logs filtrables, points de validation rapides.
+
+steps:
+  - step: 1
+    action: déclencher pipeline (Ctrl+Enter)
+    feedback: statut immédiat (en cours / succès / échec)
+  - step: 2
+    action: consulter logs (Ctrl+L)
+    feedback: filtres temps réel
+  - step: 3
+    action: valider étape bloquante
+    feedback: confirmation explicite
+
+success_criteria:
+  - Temps de diagnostic < 2 min
+  - Filtres logs < 1s
+  - Validation explicite toujours requise
+
+crossrefs:
+  verses: []
+  ontology:
+    - iteration_cycle
+    - cognitive_load
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

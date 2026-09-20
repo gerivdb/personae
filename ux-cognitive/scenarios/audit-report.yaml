@@ -1,0 +1,37 @@
+---
+scenario_id: audit-report
+profile: auditor
+regime_impact:
+  - operative
+description: >
+  Audit d'un changement cross-repo par un validateur. Objectif : traçabilité
+  complète, vue structurée, export de rapport.
+
+steps:
+  - step: 1
+    action: lancer audit (Ctrl+Shift+A)
+    feedback: liste des fichiers modifiés + métriques
+  - step: 2
+    action: inspecter détails (F9)
+    feedback: diff + liens VERSES + KG-L
+  - step: 3
+    action: exporter rapport (Ctrl+E)
+    feedback: PDF/Markdown avec horodatage UTC
+
+success_criteria:
+  - Temps de génération rapport < 10s
+  - 100% des chemins tracés
+  - Horodatage UTC systématique
+
+crossrefs:
+  verses: []
+  ontology:
+    - error_tolerance
+    - info_density
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

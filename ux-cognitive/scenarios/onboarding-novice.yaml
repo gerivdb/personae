@@ -1,0 +1,37 @@
+---
+scenario_id: onboarding-novice
+profile: novice
+regime_impact:
+  - operative
+description: >
+  Premier lancement d'un outil par un utilisateur novice. Objectif : réduire
+  la charge cognitive par des étapes guidées et un feedback immédiat.
+
+steps:
+  - step: 1
+    action: afficher message de bienvenue + vidéo 30s
+    feedback: succès
+  - step: 2
+    action: proposer configuration assistée
+    feedback: succès
+  - step: 3
+    action: valider compréhension par quiz 3 questions
+    feedback: succès / échec
+
+success_criteria:
+  - Temps de complétion < 5 min
+  - Taux de succès quiz > 80%
+  - Aucune erreur bloquante
+
+crossrefs:
+  verses: []
+  ontology:
+    - cognitive_load
+    - error_tolerance
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

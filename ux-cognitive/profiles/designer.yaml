@@ -1,0 +1,31 @@
+---
+profile_id: designer
+name: Designer
+regime_impact:
+  - operative
+description: >
+  Designer UX / UI. Charge cognitive variable, besoin de previews immédiates,
+  tolérance moyenne aux erreurs créatives, densité d'information moyenne.
+  Cycle d'itération rapide avec sauvegarde automatique.
+
+cognitive_load: medium
+shortcuts:
+  - Ctrl+P preview
+  - Ctrl+S sauvegarde instantanée
+  - Ctrl+/ toggle grille
+error_tolerance: medium
+info_density: medium
+iteration_cycle: fast
+
+crossrefs:
+  verses: []
+  ontology:
+    - cognitive_load
+    - iteration_cycle
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

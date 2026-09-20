@@ -1,0 +1,31 @@
+---
+profile_id: operator
+name: Operator
+regime_impact:
+  - operative
+description: >
+  Opérateur de pipeline / CI. Charge cognitive moyenne, besoin de feedback
+  visuel immédiat, tolérance moyenne aux erreurs, densité d'information moyenne.
+  Cycle d'itération rapide mais avec points de validation obligatoires.
+
+cognitive_load: medium
+shortcuts:
+  - Ctrl+Enter exécution pipeline
+  - F5 refresh statut
+  - Ctrl+L logs filtrables
+error_tolerance: medium
+info_density: medium
+iteration_cycle: fast
+
+crossrefs:
+  verses: []
+  ontology:
+    - cognitive_load
+    - iteration_cycle
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20

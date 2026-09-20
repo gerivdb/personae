@@ -1,0 +1,31 @@
+---
+profile_id: auditor
+name: Auditor
+regime_impact:
+  - operative
+description: >
+  Auditeur / validateur. Charge cognitive moyenne-haute, besoin de traçabilité
+  complète, faible tolérance aux erreurs, haute densité d'information structurée.
+  Cycle d'itération lent mais avec validation systématique.
+
+cognitive_load: medium
+shortcuts:
+  - Ctrl+Shift+A audit rapide
+  - F9 toggle détails
+  - Ctrl+E export rapport
+error_tolerance: low
+info_density: high
+iteration_cycle: slow
+
+crossrefs:
+  verses: []
+  ontology:
+    - cognitive_load
+    - error_tolerance
+  unified_design:
+    - ux-cognitive
+
+---
+**IntentHash** : 0xPRD_PERSONAE_UX_COGNITIVE_20260920
+**Status** : draft
+**Date** : 2026-09-20
